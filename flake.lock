@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "m1s-ups-script": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785269160,
+        "narHash": "sha256-s5+SnRbdtZ0bUENGXcPIuCztJFxqVdwG5YKdoxtPP3A=",
+        "owner": "Skeen",
+        "repo": "m1s_ups",
+        "rev": "556f133bf58cfa60db380b0af58f07b30e591b9c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Skeen",
+        "repo": "m1s_ups",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1785090369,
+        "narHash": "sha256-m0pDuRJG7EDo9ri+4Ksu83VsI+PlxNC9lNBfydejce4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "624af665418d3c65d544145b4d34ad696439570e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "m1s-ups-script": "m1s-ups-script",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
